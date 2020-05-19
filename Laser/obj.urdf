@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<robot name="physics">
+    <link name="eye">
+        <visual>
+            <origin rpy="1.57 0 0" xyz="1 1 1"/>
+            <geometry>
+                <mesh filename="eye/eyeball.obj" scale=".05 .05 .05"/>
+            </geometry>
+        </visual>
+    </link>
+</robot>
